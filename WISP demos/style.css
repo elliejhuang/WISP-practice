@@ -1,13 +1,32 @@
+
+.link{
+    text-align:left;
+    color: #161e2d;
+    font-weight: 600;
+}
+
 *{
-    text-align: center;
     color:rgb(240, 242, 228);
     background-color: #8192b1
 
 ;
 }
 
-.link{
-    color: #161e2d
-    ;
+.heading {
+    text-align: center;
+    margin-top: 25%;
+    font-size: 400%;
 }
+
+.text {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    color:#bec7d9
+}
+
+.img{
+    align-items: center;
+}
+
 
