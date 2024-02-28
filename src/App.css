@@ -14,10 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #628666;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.note{
+  border: 2px solid rgb(225, 250, 224);
+  margin: 15px;
+  background-color: rgb(59, 107, 64);
+}
+
+.text {
+  font-family: gill sans;
+  font-weight: 600;
+}
+
+.title {
+  font-size: xxx-large;
+  font-weight: 700;
+
+}
+
+.noteboard {
+ display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
 }
